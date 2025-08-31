@@ -2,18 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "chatbot app",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [
     "chatbot",
     "application"
   ],
-  "license": "ISC",
   "author": "Tajinder Singh",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",

@@ -99,7 +99,7 @@ function Bot() {
             </button>
           </div>
         </div>
-      </footer>
+      </footer> 
     </div>
   )
 }
